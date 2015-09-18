@@ -10,7 +10,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 app.get('/', function(request, response) {
-  response.render('pages/index');
+  response.render('index', {title: "Test Title"});
 });
 
 app.get('/test', function(req, res) {
