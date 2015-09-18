@@ -19,6 +19,18 @@ app.get('/test', function(req, res) {
 
 });
 
+app.get('/getTraffic', function(req, res) {
+
+	// Create an array with number that represent 9am - 8pm
+
+	//put it in a json object
+
+	//send it back in the request
+
+	
+
+});
+
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
 });
