@@ -9,7 +9,7 @@ var traffic = require('./routes/traffic');
 
 var app = express();
 
-app.set('port', (process.env.PORT || 4000));
+app.set('port', (process.env.PORT || 80));
 
 app.use(express.static(__dirname + '/public'));
 
