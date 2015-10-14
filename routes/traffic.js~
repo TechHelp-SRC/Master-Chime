@@ -32,7 +32,7 @@ i
 router.get('/', function(req, res) {
 	
 	BeamBreak.find(function(err, beamBreaks) {
-	
+		
 		if (err) {
 			
 			res.send(err);
